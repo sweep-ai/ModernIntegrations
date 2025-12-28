@@ -1,0 +1,946 @@
+<html lang="en" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Integrations - Full Stack AI Automation Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <script type="text/javascript">
+      !function(){if(!window.UnicornStudio){window.UnicornStudio={isInitialized:!1};var i=document.createElement("script");i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js",i.onload=function(){window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)},(document.head || document.body).appendChild(i)}}();
+    </script>
+    <style>
+      body {
+      font-family: 'Inter', sans-serif;
+      background-color: #030303;
+      color: #888888;
+      }
+      .glass-card {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      }
+      .glass-card:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+      }
+      .text-gradient-primary {
+      background: linear-gradient(to right, #ffffff, #a5a5a5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      }
+      .input-glow:focus-within {
+      box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.3);
+      border-color: rgba(99, 102, 241, 0.5);
+      }
+      /* Grid background pattern */
+      .bg-grid {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 40px 40px;
+      }
+    </style>
+    
+    
+  </head>
+  <body class="antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+    <!-- Global Aura Background Component -->
+    <div data-us-project="cqcLtDwfoHqqRPttBbQE" class="fixed top-0 left-0 -z-10 w-full h-full"></div>
+    
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 border-b border-white/5 bg-[#030303]/80 backdrop-blur-xl">
+      <div class="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
+        <a href="#" class="flex items-center gap-2 group text-white font-medium tracking-tight text-lg">
+          <div class="w-6 h-6 rounded bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-[10px] font-bold text-white">
+            M
+          </div>
+          Modern Integrations
+        </a>
+
+        <div class="flex gap-6 gap-x-6 gap-y-6 items-center">
+          <a href="#services" class="hover:text-white transition-colors hidden sm:block text-xs font-medium text-gray-400">
+            Services
+          </a>
+          <a href="#process" class="hover:text-white transition-colors hidden sm:block text-xs font-medium text-gray-400">
+            Process
+          </a>
+          <a href="#pricing" class="hover:text-white transition-colors hidden sm:block text-xs font-medium text-gray-400">
+            Pricing
+          </a>
+          <a href="#" class="text-xs font-medium text-black bg-white hover:bg-gray-200 transition-colors px-3 py-1.5 rounded-md tracking-tight">
+            Book Audit
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="overflow-hidden pt-32 pb-24 relative">
+      <!-- Background Effects -->
+      <div class="absolute inset-0 -z-10 h-full w-full bg-transparent">
+        <div class="absolute inset-0 bg-grid [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
+      </div>
+
+      <div class="flex flex-col z-10 text-center max-w-4xl mr-auto ml-auto pr-6 pl-6 relative items-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-indigo-500/20 bg-indigo-500/10 text-[10px] font-medium text-indigo-300 mb-6">
+          <span class="relative flex h-1.5 w-1.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-indigo-500"></span>
+          </span>
+          Accepting New Clients for Q4
+        </div>
+
+        <h1 class="text-5xl md:text-7xl font-medium tracking-tight text-white mb-6 leading-[1.1]">
+          Stop Hiring.
+          <br>
+          <span class="text-white">Start Automating.</span>
+        </h1>
+
+        <p class="text-lg text-gray-400 max-w-2xl mb-10 font-light leading-relaxed">
+          We build autonomous AI agents and workflows that scale your
+          operations, reduce costs by 60%, and run 24/7 without a break.
+        </p>
+
+        <!-- Animated Interface Container -->
+        <div class="md:h-[300px] w-full h-[280px] max-w-2xl z-20 mb-8 relative perspective-1000">
+          <!-- Slide 1: Input Interface -->
+          <div class="absolute inset-0 transition-all duration-700 ease-in-out transform flex flex-col items-center justify-center" id="slide-input">
+            <div class="w-full max-w-xl relative group z-10">
+              <div class="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xl opacity-20 blur transition duration-500 group-hover:opacity-40"></div>
+              <div class="flex input-glow bg-[#121212] border-white/10 border rounded-xl pt-3 pr-3 pb-3 pl-5 relative shadow-2xl items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-indigo-400 mr-4 animate-pulse">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div class="flex-1 text-left text-base text-white font-mono h-6 flex items-center overflow-hidden">
+                  <span id="typing-text"></span>
+                  <span class="w-1.5 h-5 bg-indigo-500 inline-block ml-1 animate-pulse"></span>
+                </div>
+                <button class="bg-white/10 hover:bg-white/20 text-white rounded-lg p-2 transition-colors ml-2">
+                  <span class="text-xs font-medium">Run</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2: Processing Logic -->
+          <div id="slide-logic" class="absolute inset-0 transition-all duration-700 ease-in-out transform flex flex-col items-center justify-center">
+            <div class="w-full h-full bg-[#121212] rounded-xl border border-white/10 shadow-2xl overflow-hidden relative flex items-center justify-center z-10">
+              <div class="absolute inset-0 bg-grid opacity-30"></div>
+
+              <!-- Logic Flow Visual -->
+              <div class="relative z-10 flex items-center gap-4 md:gap-8">
+                <!-- Node 1 -->
+                <div class="w-28 md:w-32 p-3 rounded-lg border border-blue-500/30 bg-[#151515] shadow-lg shadow-blue-500/5 animate-pop-in" data-animate="true">
+                  <div class="flex items-center gap-2 mb-2 text-blue-400">
+                    <span class="iconify" data-icon="simple-icons:gmail" data-width="12"></span>
+                    <span class="text-[10px] font-bold uppercase tracking-wider">
+                      Inbound
+                    </span>
+                  </div>
+                  <div class="text-[10px] text-gray-400">New Lead Email</div>
+                </div>
+
+                <!-- Connector -->
+                <div class="w-4 md:w-8 h-px bg-white/20 relative animate-grow-width" data-animate="true"></div>
+
+                <!-- Node 2 -->
+                <div class="w-28 md:w-32 p-3 rounded-lg border border-indigo-500/30 bg-[#151515] shadow-lg shadow-indigo-500/5 animate-pop-in" data-animate="true">
+                  <div class="flex items-center gap-2 mb-2 text-indigo-400">
+                    <span class="iconify" data-icon="simple-icons:openai" data-width="12"></span>
+                    <span class="text-[10px] font-bold uppercase tracking-wider">
+                      Analysis
+                    </span>
+                  </div>
+                  <div class="text-[10px] text-gray-400">
+                    Qualify &amp; Draft
+                  </div>
+                </div>
+
+                <!-- Connector -->
+                <div class="w-4 md:w-8 h-px bg-white/20 relative animate-grow-width" data-animate="true"></div>
+
+                <!-- Node 3 -->
+                <div class="w-28 md:w-32 p-3 rounded-lg border border-orange-500/30 bg-[#151515] shadow-lg shadow-orange-500/5 animate-pop-in" data-animate="true">
+                  <div class="flex items-center gap-2 mb-2 text-orange-400">
+                    <span class="iconify" data-icon="simple-icons:hubspot" data-width="12"></span>
+                    <span class="text-[10px] font-bold uppercase tracking-wider">
+                      CRM
+                    </span>
+                  </div>
+                  <div class="text-[10px] text-gray-400">Create Deal</div>
+                </div>
+              </div>
+
+              <div class="absolute bottom-3 left-4 text-[10px] text-indigo-300 flex items-center gap-2">
+                <svg class="animate-spin" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
+                </svg>
+                Agent running task...
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3: Results -->
+          <div id="slide-results" class="absolute inset-0 transition-all duration-700 ease-in-out transform flex flex-col items-center justify-center">
+            <div class="w-full h-full bg-[#121212] rounded-xl border border-white/10 shadow-2xl overflow-hidden flex flex-col relative z-10">
+              <div class="h-10 border-b border-white/10 bg-white/5 flex items-center px-4 justify-between shrink-0">
+                <div class="flex items-center gap-2">
+                  <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                  <span class="text-xs font-mono text-gray-300">
+                    Live Dashboard
+                  </span>
+                </div>
+              </div>
+              <div class="flex-1 p-6 flex flex-col justify-center">
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="p-4 rounded bg-white/5 border border-white/5 animate-slide-in" data-animate="true">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-wider mb-1">
+                      Hours Saved
+                    </div>
+                    <div class="text-2xl font-medium text-white">
+                      142h
+                      <span class="text-emerald-400 text-xs">+12%</span>
+                    </div>
+                  </div>
+                  <div class="p-4 rounded bg-white/5 border border-white/5 animate-slide-in" data-animate="true">
+                    <div class="text-[10px] text-gray-500 uppercase tracking-wider mb-1">
+                      Cost Reduced
+                    </div>
+                    <div class="text-2xl font-medium text-white">
+                      $8.4k
+                      <span class="text-emerald-400 text-xs">+24%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-4 p-3 rounded bg-indigo-500/10 border border-indigo-500/20 flex items-center gap-3 animate-slide-in" data-animate="true">
+                  <div class="w-8 h-8 rounded bg-indigo-500/20 flex items-center justify-center text-indigo-400">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="text-xs font-medium text-white">
+                      Automation Complete
+                    </div>
+                    <div class="text-[10px] text-gray-400">
+                      Lead processed and synced to CRM
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="my-12 relative z-20">
+          <style>
+            @property --gradient-angle { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+            .shiny-cta {
+                --gradient-angle: 0deg; position: relative; overflow: hidden; border-radius: 9999px; padding: 0.875rem 2.5rem;
+                font-size: 0.875rem; font-weight: 500; color: #ffffff;
+                background: linear-gradient(#000000, #000000) padding-box,
+                            conic-gradient(from var(--gradient-angle), transparent 0%, #6366f1 50%, transparent 100%) border-box;
+                border: 1px solid transparent; animation: border-spin 3s linear infinite;
+            }
+            @keyframes border-spin { to { --gradient-angle: 360deg; } }
+            .shiny-cta:hover { transform: scale(1.02); box-shadow: 0 0 30px -10px rgba(99, 102, 241, 0.4); }
+          </style>
+          <button class="shiny-cta group transition-all">
+            <span class="relative z-10 flex items-center gap-2">
+              Calculate Your ROI
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-0.5">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+
+        <!-- Tags -->
+        <div class="flex flex-wrap justify-center items-center gap-3 text-xs text-white font-mono mb-20 opacity-70">
+          <span>Integrates with:</span>
+          <span class="flex items-center gap-1.5 px-2 py-1 rounded bg-white/5 border border-white/10">
+            <span class="iconify" data-icon="simple-icons:openai"></span>
+            OpenAI
+          </span>
+          <span class="flex items-center gap-1.5 px-2 py-1 rounded bg-white/5 border border-white/10">
+            <span class="iconify" data-icon="simple-icons:make"></span>
+            Make
+          </span>
+          <span class="flex items-center gap-1.5 px-2 py-1 rounded bg-white/5 border border-white/10">
+            <span class="iconify" data-icon="simple-icons:hubspot"></span>
+            HubSpot
+          </span>
+          <span class="flex items-center gap-1.5 px-2 py-1 rounded bg-white/5 border border-white/10">
+            <span class="iconify" data-icon="simple-icons:airtable"></span>
+            Airtable
+          </span>
+        </div>
+      </div>
+
+      <!-- Animation Styles -->
+      <style>
+        @keyframes fadeInScale { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+        .animate-fade-in-up { animation: fadeInScale 0.4s ease-out forwards; opacity: 0; }
+        @keyframes slideIn { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+        .animate-slide-in { animation: slideIn 0.4s ease-out forwards; opacity: 0; }
+        @keyframes popIn { 0% { opacity: 0; transform: scale(0.5); } 80% { transform: scale(1.1); } 100% { opacity: 1; transform: scale(1); } }
+        .animate-pop-in { animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; opacity: 0; }
+        @keyframes growWidth { from { width: 0; opacity: 0; } to { width: 100%; opacity: 1; } }
+        .animate-grow-width { animation: growWidth 0.5s ease-out forwards; opacity: 0; }
+      </style>
+
+      <script>
+        (function() {
+            const slideIds = ['slide-input', 'slide-logic', 'slide-results'];
+            const durations = [3500, 3500, 4000];
+            let currentIndex = 0;
+
+            const textEl = document.getElementById('typing-text');
+            const text = "Process inbound leads...";
+            let typeInterval;
+
+            function playTypewriter() {
+                if(!textEl) return;
+                textEl.textContent = "";
+                let i = 0;
+                clearInterval(typeInterval);
+                setTimeout(() => {
+                    typeInterval = setInterval(() => {
+                        textEl.textContent += text.charAt(i);
+                        i++;
+                        if(i >= text.length) clearInterval(typeInterval);
+                    }, 50);
+                }, 500);
+            }
+
+            function setSlide(index) {
+                slideIds.forEach((id, i) => {
+                    const el = document.getElementById(id);
+                    if(!el) return;
+
+                    el.className = "absolute inset-0 transition-all duration-700 ease-in-out transform flex flex-col items-center justify-center";
+
+                    if (i === index) {
+                        el.classList.add('opacity-100', 'translate-y-0', 'scale-100', 'z-20');
+                        const anims = el.querySelectorAll('[data-animate="true"]');
+                        anims.forEach(a => {
+                            a.style.animation = 'none';
+                            a.offsetHeight;
+                            a.style.animation = '';
+                        });
+                    } else if (i === (index - 1 + slideIds.length) % slideIds.length) {
+                         el.classList.add('opacity-0', '-translate-y-8', 'scale-95', 'z-10', 'pointer-events-none');
+                    } else {
+                         el.classList.add('opacity-0', 'translate-y-8', 'scale-95', 'z-10', 'pointer-events-none');
+                    }
+                });
+
+                if(index === 0) playTypewriter();
+            }
+
+            function next() {
+                currentIndex = (currentIndex + 1) % slideIds.length;
+                setSlide(currentIndex);
+                setTimeout(next, durations[currentIndex]);
+            }
+
+            setSlide(0);
+            setTimeout(next, durations[0]);
+        })();
+      </script>
+    </section>
+
+    <!-- Services Dashboard View -->
+    <section class="border-y border-white/5 bg-transparent" id="services">
+      <div class="max-w-7xl mr-auto ml-auto pt-24 pr-6 pb-24 pl-6">
+        <!-- Header Area -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+          <div class="">
+            <h2 class="text-3xl font-medium text-white mb-2 tracking-tight">
+              Full Visibility Control
+            </h2>
+            <p class="text-white max-w-md">
+              We provide a transparent dashboard for every client. Monitor your
+              active agents, workflow performance, and calculated ROI in
+              real-time.
+            </p>
+          </div>
+          <!-- Top Tabs -->
+          <div class="flex flex-wrap gap-1 bg-white/5 border-white/5 border rounded-xl p-1.5">
+            <script>
+              window.switchTab = function(tabName, btn) {
+                document.querySelectorAll('.view-section').forEach(el => {
+                  el.classList.add('hidden');
+                  el.classList.remove('block');
+                });
+                const view = document.getElementById('view-' + tabName);
+                if (view) {
+                  view.classList.remove('hidden');
+                  view.classList.add('block');
+                }
+
+                const allTabs = btn.parentNode.querySelectorAll('button');
+                allTabs.forEach(t => {
+                  t.className = 'flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-all rounded-lg';
+                });
+                btn.className = 'flex items-center gap-2 px-4 py-2 text-sm font-medium text-black bg-white shadow-sm rounded-lg transition-all';
+              };
+            </script>
+            <button onclick="switchTab('agents', this)" class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-black bg-white shadow-sm rounded-lg transition-all">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bot">
+                <path d="M12 8V4H8"></path>
+                <rect width="16" height="12" x="4" y="8" rx="2"></rect>
+                <path d="M2 14h2"></path>
+                <path d="M20 14h2"></path>
+                <path d="M15 13v2"></path>
+                <path d="M9 13v2"></path>
+              </svg>
+              Active Agents
+            </button>
+            <button onclick="switchTab('workflows', this)" class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-all rounded-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-git-branch">
+                <line x1="6" x2="6" y1="3" y2="15"></line>
+                <circle cx="18" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <path d="M18 9a9 9 0 0 1-9 9"></path>
+              </svg>
+              Workflows
+            </button>
+            <button onclick="switchTab('roi', this)" class="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-all rounded-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                <polyline points="16 7 22 7 22 13"></polyline>
+              </svg>
+              ROI Metrics
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Display Area -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 min-h-[500px]">
+          <!-- Left Column: AI Assistant Status -->
+          <div class="lg:col-span-1 bg-[#111] border border-white/10 rounded-xl flex flex-col overflow-hidden h-full shadow-lg">
+            <div class="p-4 border-b border-white/5 flex items-center justify-between bg-white/[0.02]">
+              <span class="text-sm font-medium text-white flex items-center gap-2">
+                <span class="iconify" data-icon="lucide:sparkles"></span>
+                Agency Copilot
+              </span>
+              <div class="flex items-center gap-1.5">
+                <span class="relative flex h-2 w-2">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                </span>
+                <span class="text-[10px] text-gray-400">Online</span>
+              </div>
+            </div>
+
+            <!-- Log Area -->
+            <div class="flex-1 p-4 space-y-4 overflow-y-auto font-mono text-xs custom-scrollbar">
+              <div class="text-[10px] text-gray-600 text-center uppercase tracking-widest my-2">
+                Activity Log
+              </div>
+              <div class="flex gap-2">
+                <div class="text-gray-500">10:42</div>
+                <div class="text-indigo-300">
+                  New lead identified from LinkedIn scrape.
+                </div>
+              </div>
+              <div class="flex gap-2">
+                <div class="text-gray-500">10:43</div>
+                <div class="text-gray-300">Enriched data via Clearbit.</div>
+              </div>
+              <div class="flex gap-2">
+                <div class="text-gray-500">10:44</div>
+                <div class="text-gray-300">
+                  Generated personalized outreach draft.
+                </div>
+              </div>
+              <div class="flex gap-2">
+                <div class="text-gray-500">10:45</div>
+                <div class="text-emerald-300">
+                  Synced to HubSpot. Task Complete.
+                </div>
+              </div>
+              <div class="mt-4 border-t border-white/5 pt-4">
+                <div class="flex items-center gap-2 text-gray-400 mb-2">
+                  <svg class="animate-spin" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
+                  </svg>
+                  Processing Invoice Automation...
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Visualization -->
+          <div class="lg:col-span-3 flex flex-col gap-4 h-full relative">
+            <!-- VIEW 1: AGENTS -->
+            <div id="view-agents" class="view-section block h-full flex flex-col gap-4">
+              <div class="relative flex-1 rounded-xl border border-white/10 bg-[#0f0f0f] overflow-hidden shadow-2xl bg-grid p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <!-- Agent Card 1 -->
+                  <div class="p-4 rounded-lg bg-[#111] border border-white/5 hover:border-indigo-500/30 transition-all group">
+                    <div class="flex justify-between items-start mb-4">
+                      <div class="w-10 h-10 rounded bg-indigo-500/10 flex items-center justify-center text-indigo-400">
+                        <span class="iconify" data-icon="lucide:mail" data-width="20"></span>
+                      </div>
+                      <span class="text-[10px] bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/20">
+                        Active
+                      </span>
+                    </div>
+                    <h3 class="text-white font-medium text-sm">
+                      Inbox Triage Bot
+                    </h3>
+                    <p class="text-xs text-gray-500 mt-1 mb-4">
+                      Classifies emails, drafts replies, and updates CRM.
+                    </p>
+                    <div class="w-full bg-white/5 rounded-full h-1 overflow-hidden">
+                      <div class="bg-indigo-500 h-full w-[45%]"></div>
+                    </div>
+                    <div class="flex justify-between mt-2 text-[10px] text-gray-400">
+                      <span>450 processed today</span>
+                      <span>98% accuracy</span>
+                    </div>
+                  </div>
+
+                  <!-- Agent Card 2 -->
+                  <div class="p-4 rounded-lg bg-[#111] border border-white/5 hover:border-orange-500/30 transition-all group">
+                    <div class="flex justify-between items-start mb-4">
+                      <div class="w-10 h-10 rounded bg-orange-500/10 flex items-center justify-center text-orange-400">
+                        <span class="iconify" data-icon="lucide:database" data-width="20"></span>
+                      </div>
+                      <span class="text-[10px] bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/20">
+                        Active
+                      </span>
+                    </div>
+                    <h3 class="text-white font-medium text-sm">
+                      Data Enrichment
+                    </h3>
+                    <p class="text-xs text-gray-500 mt-1 mb-4">
+                      Scrapes web for missing lead info and updates Airtable.
+                    </p>
+                    <div class="w-full bg-white/5 rounded-full h-1 overflow-hidden">
+                      <div class="bg-orange-500 h-full w-[72%]"></div>
+                    </div>
+                    <div class="flex justify-between mt-2 text-[10px] text-gray-400">
+                      <span>1.2k rows enriched</span>
+                      <span>Latency: 200ms</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- VIEW 2: WORKFLOWS -->
+            <div id="view-workflows" class="view-section hidden h-full flex flex-col gap-4">
+              <div class="relative flex-1 rounded-xl border border-white/10 bg-[#0f0f0f] overflow-hidden shadow-2xl bg-grid p-8 flex items-center justify-center">
+                <div class="relative flex items-center gap-6 md:gap-12">
+                  <!-- Step 1 -->
+                  <div class="relative flex flex-col items-center gap-2">
+                    <div class="w-14 h-14 rounded-xl bg-[#151515] border border-white/10 flex items-center justify-center shadow-xl z-10">
+                      <span class="iconify text-2xl text-white" data-icon="simple-icons:typeform"></span>
+                    </div>
+                    <span class="text-[10px] text-gray-500 font-mono">
+                      Form Submit
+                    </span>
+                  </div>
+
+                  <!-- Line -->
+                  <div class="w-16 h-0.5 bg-gradient-to-r from-white/10 to-indigo-500/50"></div>
+
+                  <!-- Step 2 -->
+                  <div class="relative flex flex-col items-center gap-2">
+                    <div class="absolute -top-3 -right-3 w-5 h-5 bg-red-500 rounded-full flex items-center justify-center text-[10px] text-white font-bold border border-[#080808] z-20">
+                      1
+                    </div>
+                    <div class="w-14 h-14 rounded-xl bg-[#151515] border border-indigo-500/50 flex items-center justify-center shadow-xl shadow-indigo-500/10 z-10">
+                      <span class="iconify text-2xl text-indigo-400" data-icon="simple-icons:openai"></span>
+                    </div>
+                    <span class="text-[10px] text-indigo-300 font-mono">
+                      Analysis
+                    </span>
+                  </div>
+
+                  <!-- Line -->
+                  <div class="w-16 h-0.5 bg-gradient-to-r from-indigo-500/50 to-white/10"></div>
+
+                  <!-- Step 3 -->
+                  <div class="relative flex flex-col items-center gap-2">
+                    <div class="w-14 h-14 rounded-xl bg-[#151515] border border-white/10 flex items-center justify-center shadow-xl z-10">
+                      <span class="iconify text-2xl text-white" data-icon="simple-icons:slack"></span>
+                    </div>
+                    <span class="text-[10px] text-gray-500 font-mono">
+                      Notify
+                    </span>
+                  </div>
+                </div>
+
+                <div class="absolute bottom-6 left-6 p-2 rounded bg-black/50 border border-white/5 backdrop-blur text-[10px] text-gray-400 font-mono">
+                  Status:
+                  <span class="text-emerald-400">Running</span>
+                  | Executions: 1,402
+                </div>
+              </div>
+            </div>
+
+            <!-- VIEW 3: ROI -->
+            <div id="view-roi" class="view-section hidden h-full flex flex-col gap-4">
+              <div class="relative flex-1 rounded-xl border border-white/10 bg-[#0f0f0f] overflow-hidden shadow-2xl bg-grid p-6">
+                <div class="flex items-end gap-3 h-48 w-full px-8 border-b border-white/10 pb-1 mb-6">
+                  <div class="w-full bg-indigo-500/10 h-[20%] rounded-t relative group">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                      $1.2k
+                    </div>
+                  </div>
+                  <div class="w-full bg-indigo-500/20 h-[35%] rounded-t relative group">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                      $3.5k
+                    </div>
+                  </div>
+                  <div class="w-full bg-indigo-500/30 h-[50%] rounded-t relative group">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                      $5.1k
+                    </div>
+                  </div>
+                  <div class="w-full bg-indigo-500/50 h-[75%] rounded-t relative group">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                      $8.2k
+                    </div>
+                  </div>
+                  <div class="w-full bg-indigo-500 h-[90%] rounded-t relative group">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                      $12k
+                    </div>
+                  </div>
+                </div>
+                <div class="flex justify-between text-xs text-gray-500 px-8">
+                  <span>Month 1</span>
+                  <span>Month 5</span>
+                </div>
+                <div class="mt-6 grid grid-cols-3 gap-4 text-center">
+                  <div>
+                    <div class="text-xl font-medium text-white">450h</div>
+                    <div class="text-[10px] text-gray-500">
+                      Manual Work Saved
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-xl font-medium text-white">$12.4k</div>
+                    <div class="text-[10px] text-gray-500">
+                      Net Cost Savings
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-xl font-medium text-emerald-400">12x</div>
+                    <div class="text-[10px] text-gray-500">ROI Multiplier</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 Step Process -->
+    <section class="py-24 relative overflow-hidden" id="process">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <div class="inline-flex items-center justify-center px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs font-medium text-gray-400 mb-6">
+            Our Methodology
+          </div>
+          <h2 class="md:text-5xl text-3xl font-medium text-white tracking-tight mb-4">
+            From chaos to autopilot
+          </h2>
+          <p class="text-white max-w-2xl mx-auto">
+            We don't just sell tools. We engineer complete operational systems
+            customized to your business logic.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-6">
+          <!-- Audit -->
+          <div class="glass-card group overflow-hidden rounded-2xl p-8 relative flex flex-col h-full">
+            <div class="h-32 w-full mb-6 rounded-xl bg-gradient-to-b from-indigo-500/10 to-transparent border border-indigo-500/10 flex items-center justify-center relative overflow-hidden group-hover:border-indigo-500/20 transition-all duration-500">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-indigo-400 opacity-80 group-hover:scale-110 transition-transform">
+                <path d="M2 12h20"></path>
+                <path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"></path>
+                <path d="m4 8 8 4 8-4"></path>
+                <path d="m2 12 10 10 10-10"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg text-white font-medium mb-3">
+              1. Discovery &amp; Audit
+            </h3>
+            <p class="text-sm text-gray-400 leading-relaxed">
+              We analyze your current manual workflows, identify bottlenecks,
+              and calculate exactly how much money you're wasting on repetitive
+              tasks.
+            </p>
+          </div>
+
+          <!-- Build -->
+          <div class="glass-card group overflow-hidden rounded-2xl p-8 relative flex flex-col h-full">
+            <div class="h-32 w-full mb-6 rounded-xl bg-gradient-to-b from-blue-500/10 to-transparent border border-blue-500/10 flex items-center justify-center relative overflow-hidden group-hover:border-blue-500/20 transition-all duration-500">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-blue-400 opacity-80 group-hover:scale-110 transition-transform">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg text-white font-medium mb-3">
+              2. Architecture &amp; Build
+            </h3>
+            <p class="leading-relaxed text-sm text-gray-400">
+              We engineer custom AI agents using N8N, Python, and LLMs. We
+              connect your stack (CRM, Email, Slack) into a unified, intelligent
+              system.
+            </p>
+          </div>
+
+          <!-- Support -->
+          <div class="glass-card group overflow-hidden rounded-2xl p-8 relative flex flex-col h-full">
+            <div class="h-32 w-full mb-6 rounded-xl bg-gradient-to-b from-emerald-500/10 to-transparent border border-emerald-500/10 flex items-center justify-center relative overflow-hidden group-hover:border-emerald-500/20 transition-all duration-500">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400 opacity-80 group-hover:scale-110 transition-transform">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path>
+              </svg>
+            </div>
+            <h3 class="text-lg text-white font-medium mb-3">
+              3. Scale &amp; Optimize
+            </h3>
+            <p class="text-sm text-gray-400 leading-relaxed">
+              We don't ghost you. Our retainer model ensures your AI agents
+              evolve as your business grows, with 24/7 monitoring and
+              optimization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us (Grid) -->
+    <section class="border-t border-white/5 bg-transparent py-24 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <div class="inline-flex items-center justify-center px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs font-medium text-gray-400 mb-6">
+            Tech Stack
+          </div>
+          <h2 class="md:text-5xl text-3xl font-medium text-white tracking-tight mb-4">
+            We speak every API
+          </h2>
+          <p class="text-gray-400 max-w-2xl mx-auto">
+            Seamlessly integrating the modern data stack.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
+          <!-- OpenAI -->
+          <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/10 transition-all group cursor-default">
+            <span class="iconify text-2xl mb-3 text-gray-400 group-hover:text-white transition-colors" data-icon="simple-icons:openai"></span>
+            <span class="text-xs font-medium text-gray-400 group-hover:text-white">
+              OpenAI
+            </span>
+          </div>
+
+          <!-- Anthropic -->
+          <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/10 transition-all group cursor-default">
+            <span class="iconify text-2xl mb-3 text-gray-400 group-hover:text-[#D09B75] transition-colors" data-icon="simple-icons:anthropic"></span>
+            <span class="text-xs font-medium text-gray-400 group-hover:text-white">
+              Anthropic
+            </span>
+          </div>
+
+          <!-- Make -->
+          <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/10 transition-all group cursor-default">
+            <span class="iconify text-2xl mb-3 text-gray-400 group-hover:text-[#6f42c1] transition-colors" data-icon="simple-icons:make"></span>
+            <span class="text-xs font-medium text-gray-400 group-hover:text-white">
+              Make
+            </span>
+          </div>
+
+          <!-- Zapier -->
+          <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/10 transition-all group cursor-default">
+            <span class="iconify text-2xl mb-3 text-gray-400 group-hover:text-[#FF4F00] transition-colors" data-icon="simple-icons:zapier"></span>
+            <span class="text-xs font-medium text-gray-400 group-hover:text-white">
+              Zapier
+            </span>
+          </div>
+
+          <!-- HubSpot -->
+          <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/10 transition-all group cursor-default">
+            <span class="iconify text-2xl mb-3 text-gray-400 group-hover:text-[#FF7A59] transition-colors" data-icon="simple-icons:hubspot"></span>
+            <span class="text-xs font-medium text-gray-400 group-hover:text-white">
+              HubSpot
+            </span>
+          </div>
+
+          <!-- Custom Solutions -->
+          <div class="flex flex-col items-center justify-center p-6 rounded-xl border border-indigo-500/20 bg-indigo-500/[0.05] transition-all group relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div class="w-6 h-6 rounded bg-white text-black flex items-center justify-center font-bold text-[8px] tracking-tighter mb-3 z-10 group-hover:scale-110 transition-transform">
+              &lt;/&gt;
+            </div>
+            <span class="text-xs font-medium text-white z-10">Custom Code</span>
+            <span class="absolute top-2 right-2 w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="border-t border-white/5 py-24 bg-transparent" id="pricing">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-medium text-white mb-4">Investment Plans</h2>
+          <p class="text-gray-400 text-sm">
+            Clear pricing. No hidden fees. ROI focused.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <!-- Audit -->
+          <div class="rounded-xl border border-white/10 p-6 flex flex-col h-full hover:border-white/20 transition-colors bg-[#0f0f0f]">
+            <div class="mb-6">
+              <div class="text-xs font-medium text-gray-400 mb-2">Strategy</div>
+              <div class="text-2xl font-medium text-white tracking-tight mb-1">
+                Audit &amp; Plan
+              </div>
+              <div class="text-xs text-gray-500">One-time fee</div>
+            </div>
+            <div class="text-xs text-gray-400 mb-6 h-8">
+              Deep dive into your operations.
+            </div>
+            <button class="w-full py-2 rounded bg-white/10 text-white text-xs font-medium hover:bg-white/20 transition-colors mb-6">
+              Book Audit ($1,500)
+            </button>
+
+            <div class="text-xs font-medium text-white mb-4">Deliverables</div>
+            <ul class="space-y-3 flex-1">
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-white" data-icon="lucide:check" data-width="12"></span>
+                Process Mapping
+              </li>
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-white" data-icon="lucide:check" data-width="12"></span>
+                ROI Calculation
+              </li>
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-white" data-icon="lucide:check" data-width="12"></span>
+                Automation Roadmap
+              </li>
+            </ul>
+          </div>
+
+          <!-- Build (Highlighted) -->
+          <div class="rounded-xl border border-indigo-500/30 bg-indigo-500/[0.03] p-6 flex flex-col h-full relative">
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">
+              Most Popular
+            </div>
+            <div class="mb-6">
+              <div class="text-xs font-medium text-indigo-400 mb-2">
+                Implementation
+              </div>
+              <div class="text-2xl font-medium text-white tracking-tight mb-1">
+                Development
+              </div>
+              <div class="text-xs text-gray-500">Per project scope</div>
+            </div>
+            <div class="text-xs text-gray-400 mb-6 h-8">
+              We build your AI workforce.
+            </div>
+            <button class="w-full py-2 rounded bg-white text-black text-xs font-medium hover:bg-gray-200 transition-colors mb-6">
+              Get Quote
+            </button>
+
+            <div class="text-xs font-medium text-white mb-4">Deliverables</div>
+            <ul class="space-y-3 flex-1">
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-indigo-400" data-icon="lucide:check" data-width="12"></span>
+                Custom AI Agents
+              </li>
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-indigo-400" data-icon="lucide:check" data-width="12"></span>
+                API Integrations
+              </li>
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-indigo-400" data-icon="lucide:check" data-width="12"></span>
+                User Training &amp; Handoff
+              </li>
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-indigo-400" data-icon="lucide:check" data-width="12"></span>
+                30 Days Support
+              </li>
+            </ul>
+          </div>
+
+          <!-- Retainer -->
+          <div class="rounded-xl border border-white/10 p-6 flex flex-col h-full hover:border-white/20 transition-colors bg-[#0f0f0f]">
+            <div class="mb-6">
+              <div class="text-xs font-medium text-gray-400 mb-2">
+                Maintenance
+              </div>
+              <div class="text-2xl font-medium text-white tracking-tight mb-1">
+                Growth Partner
+              </div>
+              <div class="text-xs text-gray-500">Monthly retainer</div>
+            </div>
+            <div class="text-xs text-gray-400 mb-6 h-8">
+              Continuous optimization &amp; scale.
+            </div>
+            <button class="w-full py-2 rounded bg-white/10 text-white text-xs font-medium hover:bg-white/20 transition-colors mb-6">
+              Contact Sales
+            </button>
+
+            <div class="text-xs font-medium text-white mb-4">Deliverables</div>
+            <ul class="space-y-3 flex-1">
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-white" data-icon="lucide:check" data-width="12"></span>
+                24/7 Monitoring
+              </li>
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-white" data-icon="lucide:check" data-width="12"></span>
+                Monthly Optimizations
+              </li>
+              <li class="flex items-start gap-2 text-xs text-gray-500">
+                <span class="iconify text-white" data-icon="lucide:check" data-width="12"></span>
+                Priority Support
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="border-t border-white/10 bg-transparent py-20 text-center">
+      <div class="max-w-2xl mx-auto px-6">
+        <h2 class="text-3xl md:text-5xl font-medium text-white mb-4 tracking-tight">
+          Ready to automate?
+        </h2>
+        <p class="text-gray-400 mb-8">Save 20+ hours per week per employee.</p>
+        <button class="px-6 py-3 bg-white text-black rounded-lg font-medium text-sm hover:bg-gray-200 transition-colors">
+          Book Your Discovery Call
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer Links -->
+    <footer class="border-t border-white/5 bg-transparent py-12 text-xs">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="text-gray-500">
+          <span class="text-white font-medium mr-1">
+            © 2024 Modern Integrations.
+          </span>
+          All rights reserved.
+        </div>
+        <div class="flex gap-6 text-gray-500 font-medium">
+          <a href="#" class="hover:text-white transition-colors">Twitter</a>
+          <a href="#" class="hover:text-white transition-colors">LinkedIn</a>
+          <a href="#" class="hover:text-white transition-colors">Email</a>
+        </div>
+      </div>
+    </footer>
+  
+</body></html>
